@@ -9,3 +9,6 @@
 
 # ejecutar este comando ya ejecutado el de arriba para levantar el compose
 - docker-compose up -d
+
+# Documentacion 
+- https://www.notion.so/jollss-study/Airflow-1525e41c63a280d9b9bedada2360fbf4
