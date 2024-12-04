@@ -1206,3 +1206,10 @@ airflow.exceptions.AirflowException: Invalid arguments were passed to joeloperat
 [2024-12-04T21:07:19.221+0000] {logging_mixin.py:120} INFO - [2024-12-04T21:07:19.221+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2024-12-04T21:07:19.254+0000] {logging_mixin.py:120} INFO - [2024-12-04T21:07:19.254+0000] {dag.py:3340} INFO - Setting next_dagrun for customoperator_test to None, run_after=None
 [2024-12-04T21:07:19.285+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/custom_operator_dag.py took 0.147 seconds
+[2024-12-04T21:07:49.784+0000] {processor.py:154} INFO - Started process (PID=6159) to work on /opt/airflow/dags/custom_operator_dag.py
+[2024-12-04T21:07:49.786+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/custom_operator_dag.py for tasks to queue
+[2024-12-04T21:07:49.787+0000] {logging_mixin.py:120} INFO - [2024-12-04T21:07:49.787+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/custom_operator_dag.py
+[2024-12-04T21:07:49.803+0000] {processor.py:766} INFO - DAG(s) dict_keys(['customoperator_test']) retrieved from /opt/airflow/dags/custom_operator_dag.py
+[2024-12-04T21:07:49.855+0000] {logging_mixin.py:120} INFO - [2024-12-04T21:07:49.855+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-12-04T21:07:49.890+0000] {logging_mixin.py:120} INFO - [2024-12-04T21:07:49.889+0000] {dag.py:3340} INFO - Setting next_dagrun for customoperator_test to None, run_after=None
+[2024-12-04T21:07:49.921+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/custom_operator_dag.py took 0.143 seconds
